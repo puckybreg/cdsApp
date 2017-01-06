@@ -57,6 +57,9 @@
                             <constraint firstAttribute="trailingMargin" secondItem="Czz-qV-c74" secondAttribute="trailing" id="WfK-Jx-HNo"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="mealNameRealLabel" destination="x7z-7Z-Bzq" id="ZTp-fn-HPi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

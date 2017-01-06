@@ -13,7 +13,10 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var nameTextField: UITextField!
     
-    @IBOutlet weak var mealNameLabel: UILabel!
+    
+    @IBOutlet weak var mealNameRealLabel: UILabel!
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,7 +28,8 @@ class ViewController: UIViewController {
     //MARK: Actions
     
     @IBAction func setDefaultLabelText(_ sender: UIButton) {
-        mealNameLabel.text = "Default Text"
+
+        mealNameRealLabel.text = "Default Text"
     }
 }
 
