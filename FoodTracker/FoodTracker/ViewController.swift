@@ -29,7 +29,8 @@ class ViewController: UIViewController {
     
     @IBAction func setDefaultLabelText(_ sender: UIButton) {
 
-        mealNameRealLabel.text = "Default Text"
+        mealNameRealLabel.text = "Gobble Gobble"
+        mealNameRealLabel.font = UIFont(name: "HelveticaNeue", size: fontSize)
     }
 }
 
