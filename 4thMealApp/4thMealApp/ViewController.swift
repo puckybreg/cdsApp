@@ -65,8 +65,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
         let date = Date()
         let calendar = Calendar.current
+        let hour = calendar.component(.hour, from: date)
+        print (hour)
+        //needs to be 9pm, 10pm, and 11pm which is 20, 21, 22
+        
+        
         
         let weekday = calendar.component(.weekday, from: date)
         

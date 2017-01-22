@@ -38,6 +38,7 @@ class ViewController: UIViewController {
         let content = UNMutableNotificationContent()
         content.title = "HI"
         content.badge = 1
+         UNCalendarNotificationTrigger
         let request = UNNotificationRequest(identifier: "n", content: content, trigger: trigger)
         
         UNUserNotificationCenter.current().add(request, withCompletionHandler: nil)
@@ -60,8 +61,8 @@ class ViewController: UIViewController {
         }
  */
         //9:30pm
-        fireComponents.hour = 21
-        fireComponents.minute = 30
+        fireComponents.hour = 12
+        fireComponents.minute = 44
         
         dateFire = calendar.date(from: fireComponents)! as NSDate
         
